@@ -1,0 +1,111 @@
+:root{
+    --secondaryTextColor: rgb(87, 87, 87);
+    --spanTextColor:#3282eb;
+}
+/* spans*/
+.secondaryText{
+    font-weight: 300;
+    color: rgba(53, 53, 53, 0.7);
+    font-size: 16px;
+}
+.card{
+    position: relative;
+    height: 368px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+}
+/* left side */
+.leftSideOfCard{
+    height: 100%;
+    width: 45%;
+    display: block;
+}
+.leftTextDiv{
+    height: auto;
+    width: auto;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+/* text settings */
+
+.dateOfJob{
+    font-size: 30px;
+    color: var(--spanTextColor);
+    font-weight: 600;
+}
+.jobPosition{
+    font-size: 18px;
+    font-weight: 400;
+}
+.companyName{
+    font-weight: 400;
+    font-size: 18px;
+}
+.companyLocation{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+
+/* right side*/
+.rightSideOfCard{
+    height: 100%;
+    width: 55%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.descriptionDiv{
+    position: relative;
+    top: 10%;
+    left: 10px;
+    height: 60%;
+    width: calc(100% - 20px);
+
+}
+.description{
+    font-size: 18px;
+    color: var(--secondaryTextColor);
+}
+
+/*Skills card*/
+.otherCard{
+    position: relative;
+    height: 724px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-top: 20px;
+}
+.skillsCardSection{
+    height: 50%;
+    width: 100%;
+    display: block;
+}
+.languageCardSection{
+    height: 50%;
+    width: 100%;
+}
+.bodySkillCard{
+    margin-top: 40px;
+    height: calc(100% - 70px);
+    width: 100%;
+}
+.bodyLangCard{
+    margin-top: 40px;
+    height: calc(100% - 86px);
+    width: 100%;
+}
+/*Skills card text settings*/
+.sectionTitle{
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+

@@ -1,0 +1,52 @@
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    top: 20px;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    padding: 4px;
+}
+
+/*
+    Cell Divs Settings
+*/
+.cellView{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    top: 2px;
+}
+.dotViewModel{
+    height: 16px;
+    width: 16px;
+    background-color: #3282eb;
+    position: relative;
+    left: 8px;
+    top: 32%;
+}
+.textViewModel{
+    height: 100%;
+    width: auto;
+    position: relative;
+    left: 20px;
+}
+
+/* cell text settings*/
+.skillDescription{
+    position: relative;
+    bottom: 5px;
+    font-size: 18px
+}
+.langSpan{
+    font-size: 14px;
+    font-weight: 300;
+}

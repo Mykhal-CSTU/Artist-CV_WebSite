@@ -1,0 +1,19 @@
+:root{
+    --mainColor: rgb(228,218, 207);
+    --mainTextColor:rgb(0, 0, 0);
+    --secondaryTextColor: rgb(87, 87, 87);
+    --blueColor: rgb(32, 79, 245);
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: center;
+}
+.divTable{
+    height: auto;
+    width: 1000px;
+    display: block;
+    justify-content: center;
+}

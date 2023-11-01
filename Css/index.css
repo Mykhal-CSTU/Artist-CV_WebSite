@@ -1,0 +1,163 @@
+:root{
+    --mainColor: rgb(255,255,255);
+    --mainTextColor:rgb(0, 0, 0);
+    --secondaryTextColor: rgb(87, 87, 87);
+    --hoveredTextColor: rgb(228,218, 207);
+    --buttonTextColor: rgb(255,255,255);
+    --blueColor: #3282eb;
+}
+/* Main settings */
+
+html{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+body{
+    margin: 0;
+    padding: 0;  
+}
+a{
+    text-decoration: none;
+    color: var(--buttonTextColor);
+}
+
+/* ---------- Main UI ---------- */
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.leftSide{
+    height: calc(100vh - 70px);
+    width: 45%;
+    background-color: rgb(228,218, 207);
+}
+
+.rightSide{
+    height: calc(100vh - 70px);
+    width: 55%;
+    background-color: rgb(255, 255, 255);
+}
+
+/* Center div*/
+
+.centerDiv {
+    height: 82vh;
+    width: 60%;
+    background-color: rgba(0, 0, 255, 0);
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: baseline;
+    left: 28%;
+    padding-top: 44px;
+    padding-bottom: 15px;
+}
+/* Left div and photos*/
+.myLogoDiv{
+    background-color: rgb(243, 236, 231);
+    height: 560px;
+    width: auto;
+    justify-content: center;
+    box-shadow: -6px 8px 12px rgba(0, 0, 0, 0.400);
+    left: 50px;
+}
+.logoPng{
+    margin-top: 8px;
+    width: auto;
+    height: 540px;
+}
+
+/* Right div and texts*/
+
+.centerTextDiv{
+    height: 95%;
+    width: 500px;
+    background-color: rgba(21, 82, 135, 0); /* Delete */
+    display: block;
+}
+
+.textHead{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.someInfo{
+    font: 30px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: var(--secondaryTextColor);
+}
+
+
+/* Buttons */
+
+.buttonList{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    padding-left: 10px;
+}
+.contact{
+    background-color: white;
+    border: 1px solid;
+}
+.contact:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+.contactA{
+    color: black;
+}
+.contactA:hover{
+    color: black;
+
+}
+.resumeA:hover{
+    color: white;
+}
+
+.moreInfo{
+    color: var(--secondaryTextColor);
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+/* Button Settings */
+button{
+    border: none;
+    background-color: #3282eb;
+    border-radius: 4px;
+    margin-left: 50px;
+    width: 90px;
+    font-size: 18px;
+    font-weight: 300;
+}
+button:hover{
+    box-shadow: -3px 2px 9px rgba(0, 0, 0, 0.300);
+    transition: 0.3s;
+    color: black;
+    /*background-color: rgba(0, 0, 255, 0.7);*/
+    background-color: var(--hoveredTextColor);
+}
+
+/* Links to social media */
+.divWithLinks{
+    width: 100%;
+    height: 220px;
+    padding-top: 10px;
+}
+.link{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.link:hover{
+    color: white;
+}
+.linksToSocialMedia{
+    margin-top: 10%;
+    padding-left: 20px;
+}
